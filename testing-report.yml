@@ -22,3 +22,6 @@ status: pass
     Просмотр содержимого в корзине
 status: pass
 
+- summary: |
+    Проверка фильтрации по цене
+status: fail
