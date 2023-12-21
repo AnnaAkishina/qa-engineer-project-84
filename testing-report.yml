@@ -1,27 +1,21 @@
-- summary: |
-    Поиск товаров по ключевому слову
-status: pass
-
-- summary: |
-    Поиск товаров по категории
-status: pass
-
-- summary: |
-    Просмотр товаров
-status: pass
-
-- summary: |
-    Просмотр подробной информации о товаре
-status: pass
-
-- summary: |
-    Добавление товара в корзину
-status: pass
-
-- summary: |
-    Просмотр содержимого в корзине
-status: pass
-
-- summary: |
-    Проверка фильтрации по цене
-status: fail
+---
+- summary: Поиск товаров по ключевому слову
+- status: pass
+---
+- summary: Поиск товаров по категории
+- status: pass
+---
+- summary: Просмотр товаров
+- status: pass
+---
+- summary: Просмотр подробной информации о товаре
+- status: pass
+---
+- summary: Добавление товара в корзину
+- status: pass
+---
+- summary: Просмотр содержимого в корзине
+- status: pass
+---
+- summary: Проверка фильтрации по цене
+- status: fail
