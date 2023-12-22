@@ -1,42 +1,43 @@
+---
 test-cases:
   - summary: |
       Поиск товаров по ключевому слову
-  status: pass
+    status: pass
 
   - summary: |
       Поиск товаров по категории
-  status: pass
+    status: pass
 
   - summary: |
       Просмотр товаров
-  status: pass
+    status: pass
 
   - summary: |
       Просмотр подробной информации о товаре
-  status: fail
+    status: fail
 
   - summary: |
       Добавление товара в корзину
-  status: pass
+    status: pass
 
   - summary: |
       Просмотр содержимого в корзине
-  status: pass
+    status: pass
 
   - summary: |
       Проверка фильтрации по цене
-  status: fail
+    status: fail
 
-  bugreports:
+bugreports:
   - summary: |
       Некорректное открытие карточки товара
-  environment: |
+    environment: |
       Яндекс.Браузер 23.7.1.1266 corp (64-bit)
-  steps-to-reproduce: |
-      Открыта стартовая страница магазина
-      Наводим курсор мыши на текст карточки товара (не на изображение)
-      Кликаем левой кнопкой
-  expected-result: |
+    steps-to-reproduce: |
+      - Открыть стартовую страницу магазина
+      - Навести курсор мыши на текст карточки товара (не на изображение)
+      - Кликнуть левой кнопкой
+    expected-result: |
       Открывается карточка товара с подробным описанием
-  actual-result: |
+    actual-result: |
       Ничего не происходит. Карточка товара не открывается.
